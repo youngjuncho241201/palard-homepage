@@ -1,0 +1,55 @@
+# 의존성
+node_modules/
+
+# 빌드 결과물 (GitHub Actions가 자동 빌드)
+dist/
+
+# 로컬 환경
+.DS_Store
+Thumbs.db
+*.local
+.env
+.env.*
+!.env.example
+
+# 에디터 · 로컬 도구
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# Vite 캐시
+.vite/
+
+# 대용량 원본 · 문서 (배포 불필요)
+*.pptx
+*.pdf
+*.zip
+*.hwp
+ppt_extracted/
+portfolio_images/
+media-archive/
+
+# CAD 설계 원본 (IP 보호 — 공개 저장소 제외)
+*.step
+*.stp
+*.STEP
+*.dxf
+*.DXF
+*.stl
+*.STL
+260508 D-spec Ring/
+PALARD/
+
+# 개인 · 행정 문서 (절대 공개 금지)
+nextlocal/
+*사업자*
+*등록증*
+*등본*
+
+# 로그 · 개발 스크립트
+*.log
+build_output.txt
+capture.cjs
+test_form.cjs
+test_form2.cjs
